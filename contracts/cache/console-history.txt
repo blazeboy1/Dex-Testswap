@@ -1,0 +1,31 @@
+.exit
+)  Math.floor(Date.now()/1000) + 600  (await ethers.getSigners())[0].address,  [usdc.address, usdt.address],  0,  1000000,await router.swapExactTokensForTokens(
+)  Math.floor(Date.now()/1000) + 600  0,  0,  1000000000,  1000000000,  usdt.address,  usdc.address,await router.addLiquidity(
+await usdt.approve(router.address, ethers.constants.MaxUint256)
+await usdc.approve(router.address, ethers.constants.MaxUint256)
+await faucet.mintUSDT()
+await faucet.mintUSDC()
+)  "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"  "TestSwapRouter",const router = await ethers.getContractAt(
+)  "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"  "TestSwapFaucet",const faucet = await ethers.getContractAt(
+)  "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"  "MockStablecoin",const usdt = await ethers.getContractAt(
+)  "0x5FbDB2315678afecb367f032d93F642f64180aa3"  "MockStablecoin",const usdc = await ethers.getContractAt(
+.exit
+)  Math.floor(Date.now()/1000) + 600  (await ethers.getSigners())[0].address,  [usdc.address, usdt.address],  0,  1000000,await router.swapExactTokensForTokens(
+)  Math.floor(Date.now()/1000) + 600  0,  0,  1000000000,  1000000000,  usdt.address,  usdc.address,await router.addLiquidity(
+await usdt.approve(router.address, ethers.constants.MaxUint256)
+await usdc.approve(router.address, ethers.constants.MaxUint256)
+await usdc.balanceOf(user.address)
+const [user] = await ethers.getSigners()
+await usdc.balanceOf((await ethers.getSigners())[0].address)
+await faucet.mintUSDT()
+await faucet.mintUSDC()
+)  "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"  "TestSwapRouter",const router = await ethers.getContractAt(
+)  "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"  "TestSwapFaucet",const faucet = await ethers.getContractAt(
+)  "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"  "MockStablecoin",const usdt = await ethers.getContractAt(
+)  "0x5FbDB2315678afecb367f032d93F642f64180aa3"  "MockStablecoin",const usdc = await ethers.getContractAt(
+"MockStablecoin",
+)  "0x5FbDB2315678afecb367f032d93F642f64180aa3""MockStablecoin",const usdc = await ethers.getContractAt(
+)  "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"  "TestSwapRouter",const router = await ethers.getContractAt(
+)  "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"  "TestSwapFaucet",const faucet = await ethers.getContractAt(
+)  "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"  "MockStablecoin",const usdt = await ethers.getContractAt(
+)  "0x5FbDB2315678afecb367f032d93F642f64180aa3"  "MockStablecoin",const usdc = await ethers.getContractAt(
