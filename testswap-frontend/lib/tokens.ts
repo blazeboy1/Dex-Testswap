@@ -21,4 +21,5 @@ name:"Tether",
 address:contracts.usdt,
 decimals:6
 }
+
 ]

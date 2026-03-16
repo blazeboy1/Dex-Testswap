@@ -1,14 +1,16 @@
 export const contracts = {
 
-    usdc:"0x5FbDB2315678afecb367f032d93F642f64180aa3" as `0x${string}`,
+    usdc:"0x665A53AF54FfD3cf6534c99077B243C04947fD59" as `0x${string}`,
 
-    usdt:"0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512" as `0x${string}`,
+    usdt:"0x589614B2f911E834eBaC2b4337279884389f5e94" as `0x${string}`,
 
-    factory:"0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0" as `0x${string}`,
+    factory:"0x4E20D019eEe34DA41D1Dd04276aab54EDF42784C" as `0x${string}`,
 
-    router:"0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9" as `0x${string}`,
+    router:"0x7f9b0B6275813a83768b2D79dC6FB0cB5f8f87a1" as `0x${string}`,
 
-    faucet:"0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9" as `0x${string}`,
+    faucet:"0x614E2307fb9aE5d368ABbeD20d3090A91b791222" as `0x${string}`,
 
-    tokenfactory:"0x5FC8d32690cc91D4c39d9d3abcBD16989F875707" as `0x${string}`
+    token:"0x3721f1B5d825fFEfAd21768Ad7be8aadFe477930" as `0x${string}`,
+
+    tokenfactory:"0xA4E8930f887F9ccbe1D157dEEFBd65e997728F02" as `0x${string}`
 }

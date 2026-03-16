@@ -17,3 +17,23 @@ export function getAmountOut(
 
   return numerator / denominator
 }
+
+export function calculatePriceImpact(
+amountIn:number,
+reserveIn:number,
+reserveOut:number
+){
+
+  const priceBefore = reserveOut / reserveIn
+
+  const newReserveIn = reserveIn + amountIn
+
+  const newReserveOut = (reserveIn * reserveOut) / newReserveIn
+
+  const priceAfter = newReserveOut / newReserveIn
+
+  const impact = ((priceBefore - priceAfter) / priceBefore) * 100
+
+  return impact
+
+}

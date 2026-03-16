@@ -1,4 +1,5 @@
 export const factoryABI = [
+
 {
 name:"getPair",
 type:"function",
@@ -13,18 +14,25 @@ outputs:[
 },
 
 {
-name:"allPairs",
-type:"functiion",
-stateMutabiity:"view",
-inputs:[{type:"uint256"}],
-outputs:[{type:"address"}]
-},
-
-{
 name:"allPairsLength",
 type:"function",
 stateMutability:"view",
 inputs:[],
-outputs:[{type:"uint256"}]
+outputs:[
+{ type:"uint256" }
+]
+},
+
+{
+name:"allPairs",
+type:"function",
+stateMutability:"view",
+inputs:[
+{ type:"uint256" }
+],
+outputs:[
+{ type:"address" }
+]
 }
+
 ]

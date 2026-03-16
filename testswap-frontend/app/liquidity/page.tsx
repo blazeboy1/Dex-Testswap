@@ -1,15 +1,22 @@
-import LiquidityBox from "@/components/LiquidityBox"
+"use client"
 
-export default function LiquidityPage(){
+import LiquidityStats from "@/components/liquidity/LiquidityStats"
+import LPPositionCard from "@/components/liquidity/LPPositionCard"
+import LiquidityCard from "@/components/liquidity/LiquidityCard"
 
-return(
+export default function LiquidityPage() {
+    return (
+        <div className="space-y-10">
+            <h1 className="text-3xl font-bold">
+                Liquidity
+            </h1>
 
-<div className="flex justify-center items-center min-h-screen">
+            <LiquidityStats />
 
-<LiquidityBox/>
+            <LPPositionCard />
 
-</div>
+            <LiquidityCard />
 
-)
-
+        </div>
+    )
 }

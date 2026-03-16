@@ -1,71 +1,21 @@
 "use client"
 
-import { useAccount, useWriteContract } from "wagmi"
-import { contracts } from "@/lib/contracts"
-import { faucetABI } from "@/lib/faucetABI"
+import FaucetCard from "@/components/faucet/FaucetCard"
 
-export default function Faucet(){
+export default function FaucetPage() {
 
-const { address } = useAccount()
+    return (
 
-const { writeContract } = useWriteContract()
-
-const claimUSDC = () => {
-
-writeContract({
-address: contracts.faucet,
-abi: faucetABI,
-functionName: "mintUSDC",
-args: []
-})
-
-}
-
-const claimUSDT = () => {
-
-writeContract({
-address: contracts.faucet,
-abi: faucetABI,
-functionName: "mintUSDT",
-args: []
-})
-
-}
-
-return(
-
-<div className="flex justify-center items-center min-h-screen">
-
-<div className="dex-card p-8 w-96">
-
-<h2 className="text-center text-xl mb-6">
-
-Token Faucet
-
-</h2>
-
-<button
-className="dex-button w-full mb-4"
-onClick={claimUSDC}
->
-
-Claim 1000 USDC
-
-</button>
-
-<button
-className="dex-button w-full"
-onClick={claimUSDT}
->
-
-Claim 1000 USDT
-
-</button>
-
-</div>
-
-</div>
-
-)
-
+        <div className="space-y-10">
+            <h1 className="text-3xl font-bold">Faucet</h1>
+            <p className="text-white/60">
+                Claim test stablecoin to create liquidity pools.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+                <FaucetCard token="USDC" />
+                <FaucetCard token="USDT" />
+            </div>
+        </div>
+        
+    )
 }
